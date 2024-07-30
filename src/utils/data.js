@@ -22,8 +22,8 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I am a student based in Seattle, Washington. As a first-generation fourth-year student pursuing a degree in Computer Science and minoring in Business at the University of Washington Seattle. A collaborative and a detail-oriented individual, who is searching for internships and research labs related to these skills.",
-  " I'm passionate about improving the lives of others through software development. I'm constantly learning new things everyday and love meeting people who are motivated and unafraid of sharing their ideas with the world.",
+  "I am a new graduate based in Seattle, Washington. As a first-generation with a degree in Computer Science and minoring in Business at the University of Washington Seattle. A collaborative and a detail-oriented individual, who is searching for internships and research labs related to these skills.",
+  " I am passionate about improving the lives of others through software development and data analytics. I'm constantly learning new things everyday and love meeting people who are motivated and unafraid of sharing their ideas with the world.",
   " ",
 ];
 
@@ -35,23 +35,23 @@ export const workExp = [
   {
     place: "Springer Capital",
     location: "Chicago, Illinois",
-    tenure: "Dec 2023 - Present",
-    role: "Software Engineering Intern",
-    detail: "Implemented Python and SQL to update company software, such as SuiteCRM, and Microsoft Suites (SharePoint, Teams, 365). Written basic scripts to update and maintain the company server and website. Implemented back-end functionality and dded features to track the statuses of hundreds of models through the company's building process, which is used to train machine learning algorithms.",
+    tenure: "Jan 2024 - Apr 2024",
+    role: "Software Engineer, Intern",
+    detail: "",
   },
   {
     place: "Husky Coding Project",
     location: "Seattle, Washington",
     tenure: "Jan 2023 - Present",
     role: "Full-stack Developer",
-    detail: "Currently developing an application called 'Snoozer', supporting high school and college students with different ways to wake up with motivation. Implementing additional features to reduce bugs within the full-stack development using Agile methodologies. Collaborating with a group of 5 to prototype a backend system to enhance human-computer interaction. Leveraging efficiency of the code by adding features using the Flask framework.",
+    detail: "Developed an application called 'Snoozer', supporting high school and college students with different ways to wake up with motivation. Implementing additional features to reduce bugs within the full-stack development using Agile methodologies. Collaborating with a group of 5 to prototype a backend system to enhance human-computer interaction. Leveraging efficiency of the code by adding features using the Flask framework.",
 
   },
   {
     place: "Geeking Out Kids of Color",
     location: "Seattle, Washington",
-    tenure: "Mar 2022 - Sep 2022",
-    role: "Web Development Intern",
+    tenure: "Mar 2022 - Aug 2022",
+    role: "Software Engineer, Intern",
     detail: "Developed a sound understanding of relevant technologies to help create software applications, ultimately to serve underrepresented communities. Cooperated with other developers to ensure the effective implementation of the technical designs into the resulting software produced. Performed entry-level analysis, problem-solving, implementation, and documentation. Provided technical support to users.",
   },
 ];

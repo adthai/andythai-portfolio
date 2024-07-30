@@ -31,15 +31,15 @@ const Intro = () => {
         {/*lower elements */}
         <div className = {css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className = {css.experience}>
-            <div className="primaryText">2</div>
+            <div className="primaryText">1</div>
             <div className="secondaryText">
-              <div>Years of Work</div>
+              <div>Year of Work</div>
               <div>Experience</div>
             </div>
           </motion.div>
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className = {css.certificate}>
             <img src="/certificate.png" alt=""/>
-            <span>Senior at the University of Washington</span>
+            <span>University of Washington c/o 2024</span>
           </motion.div>
         </div>
       </div>

@@ -39,7 +39,7 @@ const Expertise = () => {
         <motion.div
         variants={textVariant(0.5)}
         className={css.rightSide}>
-          <span className="primaryText"> Expertise: </span>
+          <span className="primaryText"> Summary: </span>
           <br/>
           {
             WhatDoIHelp.map((paragraph, i) => {
