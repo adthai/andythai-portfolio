@@ -29,7 +29,6 @@ const Footer = () => {
         <div className={css.right}>
           <ul className={css.menu}>
             <li><a href="#expertise">About Me</a></li>
-            {/* <li><a href="#work">Experience</a></li> */}
             <li><a href="#projects">Projects</a></li>
             <li>
               <SocialIcon network="linkedin" url="https://www.linkedin.com/in/adthai01" />
