@@ -47,7 +47,7 @@ const Portfolio = () => {
   </div>
   <div className="imageContainer">
     <h3 className="imageTitle">Exploratory Analysis on Jobs & Salaries</h3>
-    <a href="https://nbviewer.org/github/adthai/jobs_salaries/blob/main/jobs_salaries.ipynb" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/adthai/jobs_salaries/blob/main/jobs_salaries.ipynb" target="_blank" rel="noopener noreferrer">
       <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./jobs_salaries.png" alt="Jobs & Salaries Analysis" />
     </a>
   </div>
