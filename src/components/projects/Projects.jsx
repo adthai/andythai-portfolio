@@ -31,7 +31,7 @@ const Portfolio = () => {
     </a>
   </div>
   <div className="imageContainer">
-    <h3 className="imageTitle">E-Commerce Website</h3>
+    <h3 className="imageTitle">E-Commerce Beanie Babies Website</h3>
     <a href="https://github.com/adthai/Beanie-Website" target="_blank" rel="noopener noreferrer">
       <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./beanie_bazaar.png" alt="Beanie Bazaar" />
     </a>
