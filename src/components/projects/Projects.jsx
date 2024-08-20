@@ -23,19 +23,35 @@ const Portfolio = () => {
         </motion.div>
 
 
-        <div className={`flexCenter ${css.showCase}`}>
-          <a href="https://andy-thai2.observablehq.cloud/seattles-economy/" target="_blank" rel="noopener noreferrer">
-          <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./vizseattle.png" alt="project" />
-          </a>
-          <a href="https://github.com/adthai/Beanie-Website" target="_blank" rel="noopener noreferrer">
-          <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./beanie_bazaar.png" alt="project"/>
-          </a>
-        </div>
-        <div className={`flexCenter ${css.showCase}`}>
-          <a href="https://github.com/UWSocialComputing/Swapify-code"target="_blank" rel="noopener noreferrer">
-          <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./logo.png" alt="project" />
-          </a>
-        </div>
+<div className={`flexCenter ${css.showCase}`}>
+  <div className="imageContainer">
+    <h3 className="imageTitle">Seattle's Economic Landscape Data Analysis</h3>
+    <a href="https://andy-thai2.observablehq.cloud/seattles-economy/" target="_blank" rel="noopener noreferrer">
+      <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./vizseattle.png" alt="Seattle's Economic Landscape" />
+    </a>
+  </div>
+  <div className="imageContainer">
+    <h3 className="imageTitle">E-Commerce Website</h3>
+    <a href="https://github.com/adthai/Beanie-Website" target="_blank" rel="noopener noreferrer">
+      <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./beanie_bazaar.png" alt="Beanie Bazaar" />
+    </a>
+  </div>
+</div>
+
+<div className={`flexCenter ${css.showCase}`}>
+  <div className="imageContainer">
+    <h3 className="imageTitle">Trading Platform Dashboard (Capstone)</h3>
+    <a href="https://github.com/UWSocialComputing/Swapify-code" target="_blank" rel="noopener noreferrer">
+      <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./logo.png" alt="Swapify Code" />
+    </a>
+  </div>
+  <div className="imageContainer">
+    <h3 className="imageTitle">Exploratory Analysis on Jobs & Salaries</h3>
+    <a href="https://nbviewer.org/github/adthai/jobs_salaries/blob/main/jobs_salaries.ipynb" target="_blank" rel="noopener noreferrer">
+      <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./jobs_salaries.png" alt="Jobs & Salaries Analysis" />
+    </a>
+  </div>
+</div>
       </div>
     </motion.section>
   );
